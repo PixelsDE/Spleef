@@ -1,0 +1,11 @@
+/.idea/
+.idea
+Spleef.iml
+pom.xml
+.gitignore
+target
+/target/
+src/test/*
+/src/test/
+/src/test/*/
+

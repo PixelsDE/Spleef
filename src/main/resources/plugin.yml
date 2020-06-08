@@ -1,0 +1,19 @@
+name: Spleef
+version: ${project.version}
+main: de.bypixels.spleef.Spleef
+authors: [byPixels, PixelsDE]
+description: A Spleef Plugin
+commands:
+  start:
+    description: Starts the Game
+  set:
+    description: Sets the value of some Locations
+  edit:
+    description: Activates the Edit-Mode
+  activate:
+    description: Activates the Plugin or not / the Minigame
+  leave:
+    desctiption: Leaves the current Minigame
+    aliases: [l, lobby, hub, left, disconnect, quit]
+depend: [PixelsAPI]
+
